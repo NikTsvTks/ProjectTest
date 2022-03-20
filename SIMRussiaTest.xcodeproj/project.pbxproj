@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21AD40F027E43E910063611A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AD40EF27E43E910063611A /* AppDelegate.swift */; };
+		21AD40F227E43E910063611A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AD40F127E43E910063611A /* SceneDelegate.swift */; };
+		21AD40F427E43E910063611A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AD40F327E43E910063611A /* ViewController.swift */; };
+		21AD40F727E43E910063611A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21AD40F527E43E910063611A /* Main.storyboard */; };
+		21AD40F927E43E920063611A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AD40F827E43E920063611A /* Assets.xcassets */; };
+		21AD40FC27E43E920063611A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21AD40FA27E43E920063611A /* LaunchScreen.storyboard */; };
+		21AD410727E43E920063611A /* SIMRussiaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AD410627E43E920063611A /* SIMRussiaTestTests.swift */; };
+		21AD411127E43E920063611A /* SIMRussiaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AD411027E43E920063611A /* SIMRussiaTestUITests.swift */; };
+		21AD411327E43E920063611A /* SIMRussiaTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AD411227E43E920063611A /* SIMRussiaTestUITestsLaunchTests.swift */; };
+		21D0733F27E47751004D2102 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21D0733D27E47751004D2102 /* ProximaNova-Bold.otf */; };
+		21D0734027E47751004D2102 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21D0733E27E47751004D2102 /* ProximaNova-Regular.otf */; };
+		21D0734327E4782C004D2102 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D0734227E4782C004D2102 /* UIView+Ext.swift */; };
+		21D0734527E48EF7004D2102 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D0734427E48EF7004D2102 /* LeftAlignedCollectionViewFlowLayout.swift */; };
+		21D0734927E495D3004D2102 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D0734727E495D3004D2102 /* ProductCollectionViewCell.swift */; };
+		21D0734A27E495D3004D2102 /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D0734827E495D3004D2102 /* ProductCollectionViewCell.xib */; };
+		21D0734E27E61B59004D2102 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D0734C27E61B59004D2102 /* BannerCollectionViewCell.swift */; };
+		21D0734F27E61B59004D2102 /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D0734D27E61B59004D2102 /* BannerCollectionViewCell.xib */; };
+		21D0735327E7107E004D2102 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D0735127E7107E004D2102 /* FavouriteViewController.swift */; };
+		21D0735427E7107E004D2102 /* FavouriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D0735227E7107E004D2102 /* FavouriteViewController.xib */; };
+		21D0735727E71F43004D2102 /* BottomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D0735627E71F43004D2102 /* BottomTabBarView.swift */; };
+		21D0735927E71F5F004D2102 /* BottomTabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D0735827E71F5F004D2102 /* BottomTabBarView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21AD410327E43E920063611A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AD40E427E43E910063611A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21AD40EB27E43E910063611A;
+			remoteInfo = SIMRussiaTest;
+		};
+		21AD410D27E43E920063611A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21AD40E427E43E910063611A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21AD40EB27E43E910063611A;
+			remoteInfo = SIMRussiaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21AD40EC27E43E910063611A /* SIMRussiaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIMRussiaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AD40EF27E43E910063611A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21AD40F127E43E910063611A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		21AD40F327E43E910063611A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21AD40F627E43E910063611A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21AD40F827E43E920063611A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21AD40FB27E43E920063611A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21AD40FD27E43E920063611A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21AD410227E43E920063611A /* SIMRussiaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SIMRussiaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AD410627E43E920063611A /* SIMRussiaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIMRussiaTestTests.swift; sourceTree = "<group>"; };
+		21AD410C27E43E920063611A /* SIMRussiaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SIMRussiaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AD411027E43E920063611A /* SIMRussiaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIMRussiaTestUITests.swift; sourceTree = "<group>"; };
+		21AD411227E43E920063611A /* SIMRussiaTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIMRussiaTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		21D0733D27E47751004D2102 /* ProximaNova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.otf"; sourceTree = "<group>"; };
+		21D0733E27E47751004D2102 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		21D0734227E4782C004D2102 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		21D0734427E48EF7004D2102 /* LeftAlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftAlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		21D0734727E495D3004D2102 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		21D0734827E495D3004D2102 /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		21D0734C27E61B59004D2102 /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		21D0734D27E61B59004D2102 /* BannerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCollectionViewCell.xib; sourceTree = "<group>"; };
+		21D0735127E7107E004D2102 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		21D0735227E7107E004D2102 /* FavouriteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavouriteViewController.xib; sourceTree = "<group>"; };
+		21D0735627E71F43004D2102 /* BottomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabBarView.swift; sourceTree = "<group>"; };
+		21D0735827E71F5F004D2102 /* BottomTabBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomTabBarView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21AD40E927E43E910063611A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21AD40FF27E43E920063611A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21AD410927E43E920063611A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21AD40E327E43E910063611A = {
+			isa = PBXGroup;
+			children = (
+				21AD40EE27E43E910063611A /* SIMRussiaTest */,
+				21AD410527E43E920063611A /* SIMRussiaTestTests */,
+				21AD410F27E43E920063611A /* SIMRussiaTestUITests */,
+				21AD40ED27E43E910063611A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21AD40ED27E43E910063611A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21AD40EC27E43E910063611A /* SIMRussiaTest.app */,
+				21AD410227E43E920063611A /* SIMRussiaTestTests.xctest */,
+				21AD410C27E43E920063611A /* SIMRussiaTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21AD40EE27E43E910063611A /* SIMRussiaTest */ = {
+			isa = PBXGroup;
+			children = (
+				21D0735527E71E7D004D2102 /* BottomTabBar */,
+				21D0735027E70FD7004D2102 /* FavouriteScreen */,
+				21D0734B27E61B45004D2102 /* BannerCell */,
+				21D0734627E495C3004D2102 /* ProductCell */,
+				21D0734127E4780B004D2102 /* Extensions */,
+				21AD411F27E4464B0063611A /* Fonts */,
+				21AD40EF27E43E910063611A /* AppDelegate.swift */,
+				21AD40F127E43E910063611A /* SceneDelegate.swift */,
+				21AD40F327E43E910063611A /* ViewController.swift */,
+				21AD40F527E43E910063611A /* Main.storyboard */,
+				21AD40F827E43E920063611A /* Assets.xcassets */,
+				21AD40FA27E43E920063611A /* LaunchScreen.storyboard */,
+				21AD40FD27E43E920063611A /* Info.plist */,
+			);
+			path = SIMRussiaTest;
+			sourceTree = "<group>";
+		};
+		21AD410527E43E920063611A /* SIMRussiaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				21AD410627E43E920063611A /* SIMRussiaTestTests.swift */,
+			);
+			path = SIMRussiaTestTests;
+			sourceTree = "<group>";
+		};
+		21AD410F27E43E920063611A /* SIMRussiaTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21AD411027E43E920063611A /* SIMRussiaTestUITests.swift */,
+				21AD411227E43E920063611A /* SIMRussiaTestUITestsLaunchTests.swift */,
+			);
+			path = SIMRussiaTestUITests;
+			sourceTree = "<group>";
+		};
+		21AD411F27E4464B0063611A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				21D0733D27E47751004D2102 /* ProximaNova-Bold.otf */,
+				21D0733E27E47751004D2102 /* ProximaNova-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		21D0734127E4780B004D2102 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				21D0734227E4782C004D2102 /* UIView+Ext.swift */,
+				21D0734427E48EF7004D2102 /* LeftAlignedCollectionViewFlowLayout.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		21D0734627E495C3004D2102 /* ProductCell */ = {
+			isa = PBXGroup;
+			children = (
+				21D0734727E495D3004D2102 /* ProductCollectionViewCell.swift */,
+				21D0734827E495D3004D2102 /* ProductCollectionViewCell.xib */,
+			);
+			path = ProductCell;
+			sourceTree = "<group>";
+		};
+		21D0734B27E61B45004D2102 /* BannerCell */ = {
+			isa = PBXGroup;
+			children = (
+				21D0734C27E61B59004D2102 /* BannerCollectionViewCell.swift */,
+				21D0734D27E61B59004D2102 /* BannerCollectionViewCell.xib */,
+			);
+			path = BannerCell;
+			sourceTree = "<group>";
+		};
+		21D0735027E70FD7004D2102 /* FavouriteScreen */ = {
+			isa = PBXGroup;
+			children = (
+				21D0735127E7107E004D2102 /* FavouriteViewController.swift */,
+				21D0735227E7107E004D2102 /* FavouriteViewController.xib */,
+			);
+			path = FavouriteScreen;
+			sourceTree = "<group>";
+		};
+		21D0735527E71E7D004D2102 /* BottomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				21D0735627E71F43004D2102 /* BottomTabBarView.swift */,
+				21D0735827E71F5F004D2102 /* BottomTabBarView.xib */,
+			);
+			path = BottomTabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21AD40EB27E43E910063611A /* SIMRussiaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21AD411627E43E920063611A /* Build configuration list for PBXNativeTarget "SIMRussiaTest" */;
+			buildPhases = (
+				21AD40E827E43E910063611A /* Sources */,
+				21AD40E927E43E910063611A /* Frameworks */,
+				21AD40EA27E43E910063611A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SIMRussiaTest;
+			productName = SIMRussiaTest;
+			productReference = 21AD40EC27E43E910063611A /* SIMRussiaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21AD410127E43E920063611A /* SIMRussiaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21AD411927E43E920063611A /* Build configuration list for PBXNativeTarget "SIMRussiaTestTests" */;
+			buildPhases = (
+				21AD40FE27E43E920063611A /* Sources */,
+				21AD40FF27E43E920063611A /* Frameworks */,
+				21AD410027E43E920063611A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21AD410427E43E920063611A /* PBXTargetDependency */,
+			);
+			name = SIMRussiaTestTests;
+			productName = SIMRussiaTestTests;
+			productReference = 21AD410227E43E920063611A /* SIMRussiaTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21AD410B27E43E920063611A /* SIMRussiaTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21AD411C27E43E920063611A /* Build configuration list for PBXNativeTarget "SIMRussiaTestUITests" */;
+			buildPhases = (
+				21AD410827E43E920063611A /* Sources */,
+				21AD410927E43E920063611A /* Frameworks */,
+				21AD410A27E43E920063611A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21AD410E27E43E920063611A /* PBXTargetDependency */,
+			);
+			name = SIMRussiaTestUITests;
+			productName = SIMRussiaTestUITests;
+			productReference = 21AD410C27E43E920063611A /* SIMRussiaTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21AD40E427E43E910063611A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					21AD40EB27E43E910063611A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					21AD410127E43E920063611A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 21AD40EB27E43E910063611A;
+					};
+					21AD410B27E43E920063611A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 21AD40EB27E43E910063611A;
+					};
+				};
+			};
+			buildConfigurationList = 21AD40E727E43E910063611A /* Build configuration list for PBXProject "SIMRussiaTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21AD40E327E43E910063611A;
+			productRefGroup = 21AD40ED27E43E910063611A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21AD40EB27E43E910063611A /* SIMRussiaTest */,
+				21AD410127E43E920063611A /* SIMRussiaTestTests */,
+				21AD410B27E43E920063611A /* SIMRussiaTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21AD40EA27E43E910063611A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D0735427E7107E004D2102 /* FavouriteViewController.xib in Resources */,
+				21AD40FC27E43E920063611A /* LaunchScreen.storyboard in Resources */,
+				21D0734027E47751004D2102 /* ProximaNova-Regular.otf in Resources */,
+				21D0735927E71F5F004D2102 /* BottomTabBarView.xib in Resources */,
+				21D0734A27E495D3004D2102 /* ProductCollectionViewCell.xib in Resources */,
+				21D0733F27E47751004D2102 /* ProximaNova-Bold.otf in Resources */,
+				21AD40F927E43E920063611A /* Assets.xcassets in Resources */,
+				21D0734F27E61B59004D2102 /* BannerCollectionViewCell.xib in Resources */,
+				21AD40F727E43E910063611A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21AD410027E43E920063611A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21AD410A27E43E920063611A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21AD40E827E43E910063611A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D0735727E71F43004D2102 /* BottomTabBarView.swift in Sources */,
+				21D0734327E4782C004D2102 /* UIView+Ext.swift in Sources */,
+				21AD40F427E43E910063611A /* ViewController.swift in Sources */,
+				21AD40F027E43E910063611A /* AppDelegate.swift in Sources */,
+				21D0734E27E61B59004D2102 /* BannerCollectionViewCell.swift in Sources */,
+				21D0735327E7107E004D2102 /* FavouriteViewController.swift in Sources */,
+				21D0734527E48EF7004D2102 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */,
+				21D0734927E495D3004D2102 /* ProductCollectionViewCell.swift in Sources */,
+				21AD40F227E43E910063611A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21AD40FE27E43E920063611A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AD410727E43E920063611A /* SIMRussiaTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21AD410827E43E920063611A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AD411127E43E920063611A /* SIMRussiaTestUITests.swift in Sources */,
+				21AD411327E43E920063611A /* SIMRussiaTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21AD410427E43E920063611A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21AD40EB27E43E910063611A /* SIMRussiaTest */;
+			targetProxy = 21AD410327E43E920063611A /* PBXContainerItemProxy */;
+		};
+		21AD410E27E43E920063611A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21AD40EB27E43E910063611A /* SIMRussiaTest */;
+			targetProxy = 21AD410D27E43E920063611A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21AD40F527E43E910063611A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21AD40F627E43E910063611A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21AD40FA27E43E920063611A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21AD40FB27E43E920063611A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21AD411427E43E920063611A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21AD411527E43E920063611A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21AD411727E43E920063611A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ND63SLL734;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SIMRussiaTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testProject.SIMRussiaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21AD411827E43E920063611A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ND63SLL734;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SIMRussiaTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testProject.SIMRussiaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21AD411A27E43E920063611A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ND63SLL734;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testProject.SIMRussiaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SIMRussiaTest.app/SIMRussiaTest";
+			};
+			name = Debug;
+		};
+		21AD411B27E43E920063611A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ND63SLL734;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testProject.SIMRussiaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SIMRussiaTest.app/SIMRussiaTest";
+			};
+			name = Release;
+		};
+		21AD411D27E43E920063611A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ND63SLL734;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testProject.SIMRussiaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SIMRussiaTest;
+			};
+			name = Debug;
+		};
+		21AD411E27E43E920063611A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ND63SLL734;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testProject.SIMRussiaTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SIMRussiaTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21AD40E727E43E910063611A /* Build configuration list for PBXProject "SIMRussiaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21AD411427E43E920063611A /* Debug */,
+				21AD411527E43E920063611A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21AD411627E43E920063611A /* Build configuration list for PBXNativeTarget "SIMRussiaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21AD411727E43E920063611A /* Debug */,
+				21AD411827E43E920063611A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21AD411927E43E920063611A /* Build configuration list for PBXNativeTarget "SIMRussiaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21AD411A27E43E920063611A /* Debug */,
+				21AD411B27E43E920063611A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21AD411C27E43E920063611A /* Build configuration list for PBXNativeTarget "SIMRussiaTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21AD411D27E43E920063611A /* Debug */,
+				21AD411E27E43E920063611A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21AD40E427E43E910063611A /* Project object */;
+}
